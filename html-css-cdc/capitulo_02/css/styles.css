@@ -22,3 +22,24 @@ body {
   border-bottom: 1px dashed #7E9F19;
   margin: 0;
 }
+
+.place a {
+  color: #2C88A7;
+  font-weight: bold;
+}
+
+h1 a {
+  color: #7E9F19;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  background-color: #FFF;
+  border: 1px solid #7E9F19;
+  color: #7E9F19;
+  font-size: 1.5em;
+  padding: 10px;
+  letter-spacing: 3px;
+  display: flex;
+  align-content: center;
+}
