@@ -44,6 +44,11 @@ h1 a:hover {
   align-content: center;
 }
 
+.places {
+  float: left;
+  width: 660px;
+}
+
 .place img {
   border: 1px solid #7E9F19;
   float: left;
@@ -58,7 +63,9 @@ h1 a:hover {
 .sidenote {
   background-color: #FFFBE4;
   border: 1px solid #C9BC8F;
+  float: right;
   padding: 10px;
+  width: 260px;
 }
 
 .sidenote h3 {
