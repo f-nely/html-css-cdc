@@ -3,3 +3,20 @@ body {
   line-height: 1.6;
 }
 
+.container {
+  margin: 0 auto;
+  text-align: justify;
+  width: 960px;
+}
+
+.place {
+  border: 1px solid #CCC;
+  border-color: #CCC #999 #999 #CCC;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.place h2 {
+  border-bottom: 1px dashed #7E9F19;
+  margin: 0;
+}
