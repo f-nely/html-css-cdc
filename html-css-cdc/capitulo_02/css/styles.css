@@ -43,3 +43,10 @@ h1 a:hover {
   display: flex;
   align-content: center;
 }
+
+.place img {
+  border: 1px solid #7E9F19;
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 2px;
+}
