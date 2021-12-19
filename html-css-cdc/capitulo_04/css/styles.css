@@ -136,3 +136,16 @@ blockquote::after {
 .small-button {
   font-size: 0.9em;
 }
+
+/* exemplo 09 */
+@media print {
+  * {
+    background: transparent !important;
+    border-color: #000 !important;
+    color: #000 !important;
+  }
+
+  a {
+    text-decoration: underline !important;
+  }
+}
