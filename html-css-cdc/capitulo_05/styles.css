@@ -102,3 +102,23 @@ div {
     top: -10px;
     width: 23px;
 }
+
+/* exemplo_07 */
+figure {
+    position: relative;
+}
+
+img {
+    display: block;
+}
+
+figcaption {
+    background-color: rgba(0, 0, 0, .5);
+    bottom: 5px;
+    color: #FFF;
+    margin: 0 5px;
+    padding: 5px;
+    position: absolute;
+    width: 400px;
+}
+
