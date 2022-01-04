@@ -122,3 +122,32 @@ figcaption {
     width: 400px;
 }
 
+/* exemplo_08 */
+ul {
+    background-color: #CCC;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: #FFF;
+    height: 35px;
+    list-style: none;
+    padding: 0;
+    width: 210px;
+}
+
+li {
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    float: left;
+    font-size: 0.9em;
+    line-height: 35px;
+    text-align: center;
+    width: 50px;
+}
+
+li:first-child {
+    border-left: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+
