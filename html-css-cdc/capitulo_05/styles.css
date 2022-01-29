@@ -1,178 +1,197 @@
 /* exemplo_01 */
 @font-face {
-    font-family: "Lobster";
-    font-style: normal;
-    font-weight: 400;
-    src: local(Lobster), url(lobster1.4.otf);
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  src: local(Lobster), url(lobster1.4.otf);
 }
 
 h1 {
-    font-family: "Lobster", cursive;
+  font-family: "Lobster", cursive;
 }
 
 /* exemplo_02 */
 h1 {
-    font-family: "Press Start 2P", cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 /* exemplo_03 */
 @font-face {
-    font-family: "IconicFill";
-    src: url(iconic.otf);
+  font-family: "IconicFill";
+  src: url(iconic.otf);
 }
 
 .icon-next::after {
-    content: "\2192";
-    font-family: "IconicFill";
-    margin-left: 10px;
+  content: "\2192";
+  font-family: "IconicFill";
+  margin-left: 10px;
 }
 
 h1.icon-next {
-    color: #DDD;
+  color: #ddd;
 }
 
 /* exemplo_04 */
 .tnt {
-    border-radius: 50%;
-    border: 5px solid #000;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    width: 50px;
+  border-radius: 50%;
+  border: 5px solid #000;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
 }
 
 /* exemplo_05 */
 .counter {
-    background-color: #000;
-    border-top-left-radius: 25px 10px;
-    border-top-right-radius: 25px 10px;
-    color: #FFF;
-    display: block;
-    font-size: 1.7em;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    width: 50px;
+  background-color: #000;
+  border-top-left-radius: 25px 10px;
+  border-top-right-radius: 25px 10px;
+  color: #fff;
+  display: block;
+  font-size: 1.7em;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
 }
 
 /* exemplo_06 */
 div {
-    background-color: #000;
-    height: 10px;
-    padding: 20px 50px;
-    width: 50px;
+  background-color: #000;
+  height: 10px;
+  padding: 20px 50px;
+  width: 50px;
 }
 
 .cloud {
-    background-color: #FFF;
-    border-radius: 48px;
-    display: inline-block;
-    height: 16px;
-    position: relative;
-    width: 48px;
+  background-color: #fff;
+  border-radius: 48px;
+  display: inline-block;
+  height: 16px;
+  position: relative;
+  width: 48px;
 }
 
 .cloud::before {
-    background-color: rgb(255, 10, 55);
-    border-radius: 50%;
-    content: '';
-    height: 14px;
-    position: absolute;
-    right: 7px;
-    top: -6px;
-    width: 14px;
+  background-color: rgb(255, 10, 55);
+  border-radius: 50%;
+  content: "";
+  height: 14px;
+  position: absolute;
+  right: 7px;
+  top: -6px;
+  width: 14px;
 }
 
-.cloud::before, .cloud::after {
-    background-color: #FFF;
-    border-radius: 50%;
-    content: '';
-    height: 14px;
-    position: absolute;
-    right: 7px;
-    top: -6px;
-    width: 14px;
+.cloud::before,
+.cloud::after {
+  background-color: #fff;
+  border-radius: 50%;
+  content: "";
+  height: 14px;
+  position: absolute;
+  right: 7px;
+  top: -6px;
+  width: 14px;
 }
 
 .cloud::after {
-    background-color: #FFF;
-    height: 23px;
-    left: 7px;
-    right: auto;
-    top: -10px;
-    width: 23px;
+  background-color: #fff;
+  height: 23px;
+  left: 7px;
+  right: auto;
+  top: -10px;
+  width: 23px;
 }
 
 /* exemplo_07 */
 figure {
-    position: relative;
+  position: relative;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 figcaption {
-    background-color: rgba(0, 0, 0, .5);
-    bottom: 5px;
-    color: #FFF;
-    margin: 0 5px;
-    padding: 5px;
-    position: absolute;
-    width: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 5px;
+  color: #fff;
+  margin: 0 5px;
+  padding: 5px;
+  position: absolute;
+  width: 400px;
 }
 
 /* exemplo_08 */
 ul {
-    background-color: #CCC;
-    border: 1px solid rgba(0, 0, 0, .3);
-    color: #FFF;
-    height: 35px;
-    list-style: none;
-    padding: 0;
-    width: 210px;
+  background-color: #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: #fff;
+  height: 35px;
+  list-style: none;
+  padding: 0;
+  width: 210px;
 }
 
 li {
-    border-left: 1px solid rgba(255, 255, 255, .3);
-    border-right: 1px solid rgba(0, 0, 0, .3);
-    float: left;
-    font-size: 0.9em;
-    line-height: 35px;
-    text-align: center;
-    width: 50px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  float: left;
+  font-size: 0.9em;
+  line-height: 35px;
+  text-align: center;
+  width: 50px;
 }
 
 li:first-child {
-    border-left: none;
+  border-left: none;
 }
 
 li:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 /* exemplo_09 */
 div {
-    font-weight: bold;
-    height: 70px;
-    line-height: 25px;
-    margin-bottom: 10px;
-    padding: 5px;
-    text-align: center;
-    width: 220px;
+  font-weight: bold;
+  height: 70px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 220px;
 }
 .blue {
-    background-image: linear-gradient(to bottom, #4377FA, #0537B7);
+  background-image: linear-gradient(to bottom, #4377fa, #0537b7);
 }
 
 .reverse-blue {
-    background-image: linear-gradient(#0537B7, #4377FA);
+  background-image: linear-gradient(#0537b7, #4377fa);
 }
 
 .omg-pink {
-    background-image: linear-gradient(to bottom left, #FC0050, #FF79A3);
+  background-image: linear-gradient(to bottom left, #fc0050, #ff79a3);
 }
 
 .stops {
-    background-image: linear-gradient(#F5B951 48%, #F2A31C 56%);
+  background-image: linear-gradient(#f5b951 48%, #f2a31c 56%);
+}
+
+/* exemplo_10 */
+.help {
+  background-color: #ddd;
+  width: 300px;
+  margin: 0 10px;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: 3px 3px 3px #aaa;
+  position: relative;
+}
+
+#arrow {
+  color: #aaa;
+  font-size: 37px;
+  position: absolute;
+  top: 41px;
 }
